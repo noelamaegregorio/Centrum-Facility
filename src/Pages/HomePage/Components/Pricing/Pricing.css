@@ -1,0 +1,13 @@
+/* Custom CSS for :has() selector */
+.radio-input label:has(input:checked) {
+  color: white;
+  z-index: 1;
+}
+
+.radio-input label:nth-child(1):has(input:checked) ~ .selection {
+  transform: translateX(0%);
+}
+
+.radio-input label:nth-child(2):has(input:checked) ~ .selection {
+  transform: translateX(100%);
+}

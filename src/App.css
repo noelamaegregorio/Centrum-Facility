@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    :root {
+      /* Default font size for mobile */
+      --font-size: 1rem; 
+      --font-title: 35px;
+    }
+    
+    @media (min-width: 768px) {
+       /* Font size for tablets and above */
+      :root {
+        --font-size: 1.25rem;
+        --font-title: 35px;
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      /* Font size for desktops and above */
+      :root {
+        --font-size: 1.5rem; 
+      }
+    }
+  }
