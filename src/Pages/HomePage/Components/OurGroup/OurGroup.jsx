@@ -56,12 +56,7 @@ const OurGroup = ({ animateOnce }) => {
             Meet our Group
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
-            aliquam aperiam neque nemo. Ratione ipsum reiciendis blanditiis
-            iusto laborum ea voluptates nobis repellat distinctio. Esse natus
-            velit iure ipsum. Porro sit iste consequatur soluta, atque obcaecati
-            earum! Consequatur quia dolor quaerat enim! Tempora sequi qui sed
-            est necessitatibus, iste cupiditate?
+          Welcome to our group of 4th year Computer Engineering students! We’ve come together to develop a system for CTU Centrum that allows users to reserve and book rooms, pools, and other facilities online. Our goal is to streamline the booking process, making it more convenient for everyone. Let’s collaborate, share ideas, and support one another as we work on this exciting project. Looking forward to a fantastic year ahead!
           </p>
         </div>
         <ul
